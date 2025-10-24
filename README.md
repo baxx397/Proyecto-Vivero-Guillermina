@@ -1,7 +1,7 @@
 Informe del Proyecto: Vivero Guillermina
 
-Buenos días dejo mi proyecto hasta donde pude llegar falta pulir muchas cosas como interactuar con una APi real y no local, “Vivero Guillermina” El proyecto se desarrolló utilizando Vite, React Router DOM, useState, useEffect.
- Se creó un componente ProductList para listar los productos disponibles.
+“Vivero Guillermina” El proyecto se desarrolló utilizando Vite, React Router DOM, useState, useEffect.
+Se creó un componente ProductList para listar los productos disponibles.
 se implementó el hook useState para manejar el estado del carrito y los productos.
 Se implementó un evento de clic que permite agregar productos al carrito. En caso de que el usuario no haya iniciado sesión, se muestra un mensaje solicitando iniciar sesión antes de continuar.
 Se desarrolló el componente Cart para mostrar los productos seleccionados.
