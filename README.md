@@ -1,16 +1,24 @@
-# React + Vite
+Informe del Proyecto: Vivero Guillermina
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Buenos días dejo mi proyecto hasta donde pude llegar falta pulir muchas cosas como interactuar con una APi real y no local, “Vivero Guillermina” El proyecto se desarrolló utilizando Vite, React Router DOM, useState, useEffect.
+ Se creó un componente ProductList para listar los productos disponibles.
+se implementó el hook useState para manejar el estado del carrito y los productos.
+Se implementó un evento de clic que permite agregar productos al carrito. En caso de que el usuario no haya iniciado sesión, se muestra un mensaje solicitando iniciar sesión antes de continuar.
+Se desarrolló el componente Cart para mostrar los productos seleccionados.
+Se estableció un Layout general (Layout.jsx) que estructura el sitio con navegación y secciones visibles.
 
-Currently, two official plugins are available:
+Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Vite
 
-## React Compiler
+React Router DOM
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+HTML / CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+useState / useEffect / Context API
+
+Funcionamiento
+La aplicación muestra una estructura inicial de un sitio de vivero. Incluye los archivos necesarios para ampliar sus funcionalidades en el futuro, como agregar, editar o eliminar productos, y gestionar usuarios o ventas.
+El proyecto está preparado para ejecutarse localmente con los comandos estándar de React y Vite (npm install y npm run dev).
